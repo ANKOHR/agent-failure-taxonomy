@@ -1,0 +1,5 @@
+Test count: 33 passed (python -m pytest -q).
+Local implementation commit hash: 32e9167a174e658bc686d8c5fa5ed1b459dccb50
+Measured installed CLI demo: 0.659 seconds for fixtures, run, and Markdown report on 200 synthetic records.
+
+Built a deterministic, CPU-only, local-file Python CLI with fixtures, run, report, classify, and audit commands. Pure classification rules cover explicit success and six failure categories, with validated JSON/JSONL inputs, named errors, atomic report writes, per-record traceability, provenance banners, and unmeasured savings labels. The independently counted synthetic fixture reconciles all 200 records with zero false positives; adversarial and determinism tests pass. README, lessons, local acceptance evidence, and the pending two-week real-use verdict process are included. No publishing was performed. This file refers to the implementation commit above; the subsequent documentation commit records completion without a self-referential hash.
