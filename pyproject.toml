@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-failure-taxonomy"
+version = "0.1.0"
+description = "Deterministic classification of explicit agent failure evidence"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+aft = "agent_failure_taxonomy.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["agent_failure_taxonomy*"]

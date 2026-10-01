@@ -1,0 +1,6 @@
+# SYNTHETIC hand-written five-record example
+{"id":"tiny-1","synthetic":true,"date":"2026-09-30","status":"success","signal":"none","description":"Synthetic successful task","expected_category":"success"}
+{"id":"tiny-2","synthetic":true,"date":"2026-09-30","status":"failure","signal":"timeout","description":"Synthetic deadline exceeded","expected_category":"timeout"}
+{"id":"tiny-3","synthetic":true,"date":"2026-09-30","status":"failure","signal":"permission_denied","description":"Synthetic access refused","expected_category":"permission_denied"}
+{"id":"tiny-4","synthetic":true,"date":"2026-09-30","status":"failure","signal":"invalid_output","description":"Synthetic response failed output contract","expected_category":"invalid_output"}
+{"id":"tiny-5","synthetic":true,"date":"2026-09-30","status":"failure","signal":"none","description":"Synthetic failure without diagnostic evidence","expected_category":"unknown_failure"}
